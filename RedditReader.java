@@ -53,7 +53,6 @@ public class RedditReader {
 	}
 
 	void readRedditFileAndDetectRussia(String fileToRead) {
-		System.out.println("ready to read:" + fileToRead);
 		try {
 			FileReader myFileReader = new FileReader(fileToRead);
 			BufferedReader myBufferReader = new BufferedReader(myFileReader);
