@@ -13,7 +13,7 @@ public class RedditReader {
 
 	{
 		String lineToAnalyzeLowerCase = linetoAnalyze.toLowerCase();
-		if (lineToAnalyzeLowerCase.contains("russia")) {
+		if (lineToAnalyzeLowerCase.contains("russia")&&lineToAnalyzeLowerCase.contains("russia")&&lineToAnalyzeLowerCase.contains("hillary")) {
 
 			return true;
 		} else {
